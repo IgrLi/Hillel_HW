@@ -1,0 +1,38 @@
+// Проверка версии гита
+git -v
+
+// Открыть файл настроек гита
+git config --global --edit
+
+// Установить имя и емайл
+git config --global user.name "Your Name"
+git config --global user.email "your_email@whatever.com"
+
+// Менять crlf на lf
+git config --global core.autocrlf input
+
+// Сгенерировать новый ssh-ключ
+ssh-keygen -o -t rsa -C "your_email@whatever.com"
+
+// Перейти в папку с ключом (для автозавершения команды, можно испольовать Tab)
+cd ~/.ssh/
+
+//  Открыть файл
+cat id_rsa.pub
+
+// Посмотреть содержимое папки
+ls
+//  Посмотреть содержимое папки включая скрытые файлы
+ls -a
+
+// Скопировать репозиторий
+git clone ссылка
+
+// Добавить файл в индекс
+git add имя файла
+
+// Сохранить изменения (закоммитить)
+git commit -m 'Комментарий'
+
+// Сохранить в Гитхаб (запушить)
+git push
