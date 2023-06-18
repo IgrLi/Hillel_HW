@@ -1,0 +1,420 @@
+{
+  "id": "d780f573-7f46-43f3-860e-2c37af9a0509",
+  "version": "2.0",
+  "name": "Hillel_Auto_1",
+  "url": "https://qauto2.forstudy.space/",
+  "tests": [{
+    "id": "946ef553-d93b-4afe-a5d2-12c30e9c9d86",
+    "name": "Вхід",
+    "commands": [{
+      "id": "fb97f272-f4fb-413d-84ee-f2570c25d743",
+      "comment": "",
+      "command": "open",
+      "target": "https://qauto2.forstudy.space/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21de355f-9445-4340-8cb7-237b62e8e80a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "884bad3f-1e4a-4e02-8d4d-bd059d05bc54",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='signinEmail']",
+      "targets": [
+        ["id=signinEmail", "id"],
+        ["name=email", "name"],
+        ["css=#signinEmail", "css:finder"],
+        ["xpath=//input[@id='signinEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "badasow498@gam1fy.com"
+    }, {
+      "id": "769e4544-efbf-485e-8bc8-7cbe658cdc20",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='signinPassword']",
+      "targets": [
+        ["id=signinPassword", "id"],
+        ["name=password", "name"],
+        ["css=#signinPassword", "css:finder"],
+        ["xpath=//input[@id='signinPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "7894123Qwe"
+    }, {
+      "id": "9498d2dc-b417-4492-b577-539a8261f7ce",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='button'])[3]",
+      "targets": [
+        ["css=.btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f68ef2ab-fb64-4f42-b025-31c7616ddf92",
+    "name": "Вихід",
+    "commands": [{
+      "id": "c8c9c9a0-807a-4efe-b4e2-86198dc983eb",
+      "comment": "",
+      "command": "open",
+      "target": "https://qauto2.forstudy.space/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "077d57f5-101d-4ff1-9bd1-ab1caabfbf2d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5ad8e56-fefe-491d-bf96-25f832e2416f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Sign In')]",
+      "targets": [
+        ["css=.btn-outline-white", "css:finder"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecd175e7-8023-482b-ae8f-4f9f8ee47bfd",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='signinEmail']",
+      "targets": [
+        ["id=signinEmail", "id"],
+        ["name=email", "name"],
+        ["css=#signinEmail", "css:finder"],
+        ["xpath=//input[@id='signinEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "badasow498@gam1fy.com"
+    }, {
+      "id": "7ae29022-94a2-40fa-9085-4aa9c2a32596",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='signinPassword']",
+      "targets": [
+        ["id=signinPassword", "id"],
+        ["name=password", "name"],
+        ["css=#signinPassword", "css:finder"],
+        ["xpath=//input[@id='signinPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "7894123Qwe"
+    }, {
+      "id": "9883c847-1e5c-4128-b48e-d562d0efb1d4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='button'])[3]",
+      "targets": [
+        ["css=.btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff5d9790-888d-4ad4-8c85-d7eda0977557",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@id='userNavDropdown']",
+      "targets": [
+        ["id=userNavDropdown", "id"],
+        ["css=#userNavDropdown", "css:finder"],
+        ["xpath=//button[@id='userNavDropdown']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'My profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47056962-57f2-44da-93c3-a56abe7b753b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Logout')]",
+      "targets": [
+        ["css=.dropdown-item:nth-child(6)", "css:finder"],
+        ["xpath=//nav/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e1147102-1704-4e26-a8b2-078419ca29fb",
+    "name": "Перевірка інструкції",
+    "commands": [{
+      "id": "2ab00608-beb2-459c-98b4-538680c6e362",
+      "comment": "",
+      "command": "open",
+      "target": "https://qauto2.forstudy.space/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e178192-7f94-45bf-b18c-beb1c441929e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ce3c540-4d88-4b38-ba4c-b64bb1b1e70f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Sign In')]",
+      "targets": [
+        ["css=.btn-outline-white", "css:finder"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3223fbe-5f6f-48f1-8a89-fde614e1c321",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='signinEmail']",
+      "targets": [
+        ["id=signinEmail", "id"],
+        ["name=email", "name"],
+        ["css=#signinEmail", "css:finder"],
+        ["xpath=//input[@id='signinEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "badasow498@gam1fy.com"
+    }, {
+      "id": "edd258f8-6e94-4da8-b026-9287b7fcd594",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='signinPassword']",
+      "targets": [
+        ["id=signinPassword", "id"],
+        ["name=password", "name"],
+        ["css=#signinPassword", "css:finder"],
+        ["xpath=//input[@id='signinPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "7894123Qwe"
+    }, {
+      "id": "585c6c1a-1a95-42bd-ad12-e20f44a847da",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='button'])[3]",
+      "targets": [
+        ["css=.btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecaadca3-779c-4e6a-a00c-538d53cdf077",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '/panel/instructions')]",
+      "targets": [
+        ["linkText=Instructions", "linkText"],
+        ["css=.header-link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Instructions')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/panel/instructions')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Instructions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d3739882-c560-4630-a497-b5b1268cd0a5",
+    "name": "Певірка витрат на пальне",
+    "commands": [{
+      "id": "5201b16c-3804-4087-84ea-c0257a9ae554",
+      "comment": "",
+      "command": "open",
+      "target": "https://qauto2.forstudy.space/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0404567-0f66-48fc-af20-1c0ae733e8b5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7dc061e7-d7ac-4dfe-b683-6a589a13e4d5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Sign In')]",
+      "targets": [
+        ["css=.btn-outline-white", "css:finder"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e033fce-1c5e-4d90-ab5c-0f41cd958903",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='signinEmail']",
+      "targets": [
+        ["id=signinEmail", "id"],
+        ["name=email", "name"],
+        ["css=#signinEmail", "css:finder"],
+        ["xpath=//input[@id='signinEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "badasow498@gam1fy.com"
+    }, {
+      "id": "bfa5b052-5735-4f67-8fe0-5cfe1a26f57d",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='signinPassword']",
+      "targets": [
+        ["id=signinPassword", "id"],
+        ["name=password", "name"],
+        ["css=#signinPassword", "css:finder"],
+        ["xpath=//input[@id='signinPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "7894123Qwe"
+    }, {
+      "id": "9595012d-c512-4296-b807-e1284e36812d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='button'])[3]",
+      "targets": [
+        ["css=.btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "070d7ac3-d9ae-4c6f-8910-00af0ae35349",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '/panel/expenses')]",
+      "targets": [
+        ["linkText=Fuel expenses", "linkText"],
+        ["css=.header-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Fuel expenses')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/panel/expenses')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Fuel expenses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b8eae785-1d2e-432d-96cb-2c9ab6a24b5d",
+    "name": "Перевірка профілю",
+    "commands": [{
+      "id": "ee44f5e9-7985-47e8-8deb-d972b20e4db1",
+      "comment": "",
+      "command": "open",
+      "target": "https://qauto2.forstudy.space/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3727b130-d049-4b02-8fd0-531d151f8b9b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e38d9d4-dddd-40bf-9b38-046795698560",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Sign In')]",
+      "targets": [
+        ["css=.btn-outline-white", "css:finder"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0490342-61e0-4bf4-95dd-750d1e04e022",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='signinEmail']",
+      "targets": [
+        ["id=signinEmail", "id"],
+        ["name=email", "name"],
+        ["css=#signinEmail", "css:finder"],
+        ["xpath=//input[@id='signinEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "badasow498@gam1fy.com"
+    }, {
+      "id": "46cbfd1b-29f5-44d3-9568-b2ed8bb23b55",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='signinPassword']",
+      "targets": [
+        ["id=signinPassword", "id"],
+        ["name=password", "name"],
+        ["css=#signinPassword", "css:finder"],
+        ["xpath=//input[@id='signinPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "7894123Qwe"
+    }, {
+      "id": "de7720c5-0463-44bc-91ab-9574e6a2a103",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='button'])[3]",
+      "targets": [
+        ["css=.btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b40e9138-d9e6-40fb-8b86-4b02eb144601",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@id='userNavDropdown']",
+      "targets": [
+        ["id=userNavDropdown", "id"],
+        ["css=#userNavDropdown", "css:finder"],
+        ["xpath=//button[@id='userNavDropdown']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'My profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e15eadd-6ab6-437c-9726-ab9b72d273d9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '/panel/profile')]",
+      "targets": [
+        ["linkText=Profile", "linkText"],
+        ["css=.user-nav_menu-group > .dropdown-item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/panel/profile')]", "xpath:href"],
+        ["xpath=//nav/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0c52bb26-ac1f-49f5-b1a6-34b251d27f8e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["946ef553-d93b-4afe-a5d2-12c30e9c9d86"]
+  }],
+  "urls": ["https://qauto2.forstudy.space/"],
+  "plugins": []
+}
