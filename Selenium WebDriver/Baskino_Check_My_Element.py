@@ -13,5 +13,6 @@ driver = webdriver.Chrome(service=Service('"D:\chromedriver_win32\chromedriver.e
 driver.get("http://baskino.me/")
 time.sleep(2)
 goButton = driver.find_element(By.XPATH, '//*[@id="right-bg"]/div/div/header/nav/ul/li[2]/a/span/em').is_displayed()
+assert driver.find_element(By.XPATH, '//*[@id="right-bg"]/div/div/header/nav/ul/li[2]/a/span/em')
 time.sleep(4)
 driver.quit()
