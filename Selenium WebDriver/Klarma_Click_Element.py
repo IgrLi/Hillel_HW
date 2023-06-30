@@ -13,6 +13,7 @@ driver = webdriver.Chrome(service=Service('"D:\chromedriver_win32\chromedriver.e
 driver.get("https://klamra.com.ua/belt-buckles/")
 time.sleep(2)
 goButton = driver.find_element(By.XPATH, '//*[@id="bs-example-navbar-collapse-1"]/ul/li[2]/a')
+assert driver.find_element(By.XPATH, '//*[@id="bs-example-navbar-collapse-1"]/ul/li[2]/a')
 goButton.click()
 time.sleep(4)
 
